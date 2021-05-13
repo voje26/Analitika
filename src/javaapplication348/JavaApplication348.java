@@ -10,12 +10,18 @@ package javaapplication348;
  * @author Ucenik
  */
 public class JavaApplication348 {
+double x;
+double y;
+public JavaApplication348(double x,double y){
 
-    /**
-     * @param args the command line arguments
-     */
+this.x=x;
+this.y=y;
+
+}
     public static void main(String[] args) {
-        // TODO code application logic here
+        JavaApplication348 tacka=new JavaApplication348(7.65,3.42);
+        System.out.println(tacka.x);
+        System.out.println(tacka.y);
     }
     
 }
